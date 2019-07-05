@@ -9,13 +9,16 @@ Cover credits: https://www.etsy.com/listing/671681867/the-office-illustration-pr
 1. Character wise dialogues count (all seasons)
 2. Character wise dialogues count (seasons wise) <br />
 ..working on more (suggestions are welcome)
+<br /><br /><br />
 
 # 🚧 Analysis Results Vizualization
 I am still working on the analysis scripts; haven't started with vizualization yet.. 
+<br /><br /><br />
 
 # 🗄️ Dataset Used
 https://data.world/abhinavr8/the-office-scripts-dataset<br /><br />
 ❤️ Thanks a lot Abhinav for this wonderful and accurate dataset. Do follow him on data.world at https://data.world/abhinavr8
+<br /><br /><br />
 
 # Enhancements Made on Dataset
 1. Speakers 'David' and 'David Wallace' has been merged to 'David Wallace'
