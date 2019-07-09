@@ -14,7 +14,7 @@ Cover credits: https://www.etsy.com/listing/671681867/the-office-illustration-pr
 # 📊 Analysis Results Vizualization
 1. Character wise dialogues count (all seasons)
 <br />
-![img](results/images/Number of Dialogues (All Seasons Combined).jpg)
+![img](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(All%20Seasons%20Combined).jpg?raw=true)
 
 2. Character wise dialogues count (seasons wise)
 <br />
@@ -31,5 +31,5 @@ https://data.world/abhinavr8/the-office-scripts-dataset<br /><br />
 2. All deleted scenes/dialogues have NOT been considered <br />
 ..if you have identified any way to clean/improve the data, join the Discussion section at https://data.world/abhinavr8/the-office-scripts-dataset/discuss/the-office-scripts-dataset/my3wgmlg 
 
-<img src="https://imgur.com/9DxyGfr"/>
+<img src="https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(All%20Seasons%20Combined).jpg?raw=true"/>
 
