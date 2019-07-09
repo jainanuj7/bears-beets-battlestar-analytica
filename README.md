@@ -10,7 +10,7 @@ Cover credits: https://www.etsy.com/listing/671681867/the-office-illustration-pr
 2. Character wise dialogues count (seasons wise) <br />
 ..working on more (suggestions are welcome)
 <br /><br /><br />
-
+![alt text](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/dunder_mifflin.jpg)<br />
 # 📊 Analysis Results Vizualization
 1. Character wise dialogues count (all seasons)
 <br />
@@ -30,3 +30,6 @@ https://data.world/abhinavr8/the-office-scripts-dataset<br /><br />
 1. Speakers 'David' and 'David Wallace' has been merged to 'David Wallace'
 2. All deleted scenes/dialogues have NOT been considered <br />
 ..if you have identified any way to clean/improve the data, join the Discussion section at https://data.world/abhinavr8/the-office-scripts-dataset/discuss/the-office-scripts-dataset/my3wgmlg 
+
+<img src="https://imgur.com/9DxyGfr"/>
+
