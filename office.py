@@ -21,7 +21,7 @@ Enhancement code can be found in data_enhancements.py
 
 
 import pandas as pd
-file = 'the-office-lines - scripts - enhanced.csv'
+file = 'dataset/the-office-lines - scripts - enhanced.csv'
 dataset = pd.read_csv(file, low_memory=False)
 
 ###############################################################

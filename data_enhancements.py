@@ -8,7 +8,7 @@ Created on Thu Jul  4 19:44:42 2019
 import pandas as pd
 import re
 
-file = 'the-office-lines - scripts.csv'
+file = 'dataset/the-office-lines - scripts.csv'
 dataset = pd.read_csv(file, low_memory=False)
 
 # Consider non deleted scenes only
@@ -40,4 +40,4 @@ for index, row in temp.iterrows():
     dataset.loc[dataset.id == row.id, 'line_text'] = row['line_text']
     
 # Write enhanced script to csv
-dataset.to_csv('the-office-lines - scripts - enhanced.csv', index=False)
+dataset.to_csv('dataset/the-office-lines - scripts - enhanced.csv', index=False)
