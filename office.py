@@ -69,10 +69,10 @@ dialogues_count = pd.DataFrame([], columns=[])
 
 for speaker in groups:
     data_current = data_grouped.get_group(speaker)
-    dialogues_count = dialogues_count.append({'speaker': speaker, 'count': len(data_current)},ignore_index=True)
+    dialogues_count = dialogues_count.append({'speaker': speaker, 'count': int(len(data_current))},ignore_index=True)
 
 dialogues_count = dialogues_count.sort_values(by='count', ascending=False)
- 
+dialogues_count.to_csv('results/dialogues_count.csv',index=False) 
 
 #########################################################################
 # Calculate season-wise dialogues count for each character
@@ -83,13 +83,25 @@ data_grouped = data.groupby(['season', 'speaker'])
 groups = list(data_grouped.groups.keys())
 
 dialogues_count_seasonwise = pd.DataFrame([], columns=[])
-
 for season, speaker in groups:
     data_current = data_grouped.get_group((season, speaker))
-    dialogues_count_seasonwise = dialogues_count_seasonwise.append({'season': season, 'speaker': speaker, 'count': len(data_current)},ignore_index=True)
+    dialogues_count_seasonwise = dialogues_count_seasonwise.append({'season': season, 'speaker': speaker, 'count': int(len(data_current))},ignore_index=True)
     
 dialogues_count_seasonwise = dialogues_count_seasonwise.sort_values(by=['season','count'], ascending=False)  
+dialogues_count_seasonwise.to_csv('results/dialogues_count_seasonwise.csv', index=False)
 
+
+data_grouped = dialogues_count_seasonwise.groupby('season')
+groups = list(data_grouped.groups.keys())
+dialogues_count_seasonwise_top6 = pd.DataFrame([], columns=[])
+for season in groups:
+#    dialogues_count_seasonwise_top6_separate = pd.DataFrame([], columns=[])
+    data_current_top6 = data_grouped.get_group(season).sort_values('count', ascending=False)[:6]
+    dialogues_count_seasonwise_top6 = dialogues_count_seasonwise_top6.append(data_current_top6)
+#    dialogues_count_seasonwise_top6_separate = dialogues_count_seasonwise_top6_separate.append(data_current_top6)
+#    dialogues_count_seasonwise_top6_separate.to_csv('results/dialogues_count_seasonwise_top6_'+ str(int(season)) + '.csv', index=True)
+
+dialogues_count_seasonwise_top6.to_csv('results/dialogues_count_seasonwise_top6.csv', index=True)
 
 ########################################################################
 
