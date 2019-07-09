@@ -14,7 +14,7 @@ Cover credits: https://www.etsy.com/listing/671681867/the-office-illustration-pr
 # 📊 Analysis Results Vizualization
 1. Character wise dialogues count (all seasons)
 <br />
-![alt text](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/dunder_mifflin.jpg)<br /><br /><br />
+![img](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(All%20Seasons%20Combined).png)
 
 2. Character wise dialogues count (seasons wise)
 <br />
