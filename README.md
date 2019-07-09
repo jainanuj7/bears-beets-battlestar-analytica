@@ -1,8 +1,7 @@
 # 🐻 bears-beets-battlestar-analytica
-Data analysis of my favorite show - The Office (US)
+## Data analysis of my favorite show - The Office (US)
 
-![alt text](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/dunder_mifflin.jpg)<br />
-Cover credits: https://www.etsy.com/listing/671681867/the-office-illustration-print
+<img src="https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/cover/dunder_mifflin.jpg?raw=true"/>
 <br /><br /><br /><br />
 
 # 🕵️ Analysis Overview
@@ -12,13 +11,13 @@ Cover credits: https://www.etsy.com/listing/671681867/the-office-illustration-pr
 <br /><br /><br />
 
 # 📊 Analysis Results Vizualization
-1. Character wise dialogues count (all seasons)
-<br />
-![img](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(All%20Seasons%20Combined).jpg?raw=true)
+### 1. Character wise dialogues count (all seasons)
 
-2. Character wise dialogues count (seasons wise)
-<br />
-![alt text](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(Seasonwise).png)
+<img src="https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(All%20Seasons%20Combined).png?raw=true"/>
+
+### 2. Character wise dialogues count (season wise)
+
+<img src="https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(Seasonwise).png?raw=true"/>
 <br /><br /><br />
 
 # 🗄️ Dataset Used
@@ -29,7 +28,9 @@ https://data.world/abhinavr8/the-office-scripts-dataset<br /><br />
 # Enhancements Made on Dataset
 1. Speakers 'David' and 'David Wallace' has been merged to 'David Wallace'
 2. All deleted scenes/dialogues have NOT been considered <br />
+3. Removed sounds effects/expressions/gestures like [laughing], [birds chirping], [nods]
+<br />
 ..if you have identified any way to clean/improve the data, join the Discussion section at https://data.world/abhinavr8/the-office-scripts-dataset/discuss/the-office-scripts-dataset/my3wgmlg 
 
-<img src="https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(All%20Seasons%20Combined).jpg?raw=true"/>
+
 
