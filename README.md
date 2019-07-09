@@ -5,14 +5,20 @@ Data analysis of my favorite show - The Office (US)
 Cover credits: https://www.etsy.com/listing/671681867/the-office-illustration-print
 <br /><br /><br /><br />
 
-# 📊 Analysis Overview
+# 🕵️ Analysis Overview
 1. Character wise dialogues count (all seasons)
 2. Character wise dialogues count (seasons wise) <br />
 ..working on more (suggestions are welcome)
 <br /><br /><br />
 
-# 🚧 Analysis Results Vizualization
-I am still working on the analysis scripts; haven't started with vizualization yet.. 
+# 📊 Analysis Results Vizualization
+### 1. Character wise dialogues count (all seasons)
+<br />
+![alt text](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(All%20Seasons%20Combined).png)<br /><br /><br />
+
+### 2. Character wise dialogues count (seasons wise)
+<br />
+![alt text](https://github.com/jainanuj7/bears-beets-battlestar-analytica/blob/master/results/images/Number%20of%20Dialogues%20(Seasonwise).png)
 <br /><br /><br />
 
 # 🗄️ Dataset Used
